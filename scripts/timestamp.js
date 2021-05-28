@@ -13,3 +13,5 @@ function timestamp(date) {
 }
 
 module.exports = timestamp;
+
+// made first and repeated the steps for engineer, employee, intern, and manager

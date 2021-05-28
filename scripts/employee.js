@@ -19,3 +19,5 @@ class Employee {
 }
 
 module.exports = Employee;
+
+// initially was not going to make this, but kept it to include the form style someone would use and needed to reference
