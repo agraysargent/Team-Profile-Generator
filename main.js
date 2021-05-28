@@ -5,10 +5,10 @@ const util = require("util");
 const readFile = util.promisify(fs.readFile);
 const writeFile = util.promisify(fs.writeFile);
 
-const timestamp = require("./lib/timestamp");
-const Engineer = require("./lib/Engineer");
-const Intern = require("./lib/Intern");
-const Manager = require("./lib/Manager");
+const timestamp = require("./scripts/timestamp");
+const Engineer = require("./scripts/engineer");
+const Intern = require("./scripts/intern");
+const Manager = require("./scripts/manager");
 
 const validate = {
   required: (input) => (input !== "" ? true : "This is section is required."),
